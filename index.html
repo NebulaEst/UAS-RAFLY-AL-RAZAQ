@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REBELION FOUNDATION - UAS</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- Font Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+    <img src="assets/images/logo-placeholder.png" alt="Logo Website" class="logo-img">
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- LIVE TIME & VISITOR COUNTER (FLOATING BAR) -->
+  <div class="status-bar">
+    <span id="visitor-counter">👥 Loading...</span>
+    <div class="live-time">
+      🕒 <span id="date"></span> | <span id="time"></span>
+    </div>
+  </div>
+
+  <!-- CONTENT AREA -->
+  <main class="grid-container">
+    <section class="content">
+      <h1>INI ADALAH UAS</h1>
+      <p>ANDA AKAN KALAH DAN KALAH SAMPAI ANDA AKAN MENANG ITU LAH SUKSES</p>
+      <button class="cta">THERE'S NO LUCKY IN YOUR SUCCES</button>
+      <div class="parallax"></div>
+    </section>
+
+    <aside class="widget">
+      <div class="subscribe-box">
+        <h3>DOWNLOAD FREEBIE!</h3>
+        <input type="email" placeholder="Your@email.com">
+        <button>SUBSCRIBE</button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <ul>...</ul>
+    <p>© 2025 REBLION. Design by CEO.REBELION FOUNDATION</p>
+  </footer>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
+<!-- LOGIN MODAL (Hidden by default) -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">LOGIN</button>
+      <p class="error-message" id="loginError"></p>
+    </form>
+  </div>
+</div>
+
+<!-- Tombol Login di Header -->
+<button id="loginBtn" class="login-btn">LOGIN</button>
+<header>
+  <!-- Logo Placeholder (Pakai Gambar atau Teks) -->
+  <div class="logo">
+    <img src="assets/images/logo-placeholder.png" alt="Logo Website" class="logo-img">
+    <!-- Opsi kalo mau pake teks aja: -->
+    <!-- <span class="logo-text">LOGO</span> -->
+  </div>
+
+  <!-- Nav Menu + Tombol Login -->
+  <nav>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">BLOG</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+    <button id="loginBtn" class="login-btn">LOGIN</button>
+  </nav>
+</header>
+<!-- Konten Utama -->
+<section class="content">
+  <h1>Selamat Datang di Website Keren!</h1>
+  <p class="sub-headline">Ini adalah sub-headline yang menarik perhatian pengunjung.</p>
+  
+  <!-- Placeholder Gambar Konten (Grid) -->
+  <div class="image-grid">
+    <div class="image-card">
+ <img src="assets/images/produk1.png" alt="Produk 1">
+      <h3>Produk 1</h3>
+      <p>Deskripsi singkat tentang produk ini.</p>
+    </div>
+    <div class="image-card">
+ <img src="assets/images/produk2.JPG" alt="Produk 2">
+      <h3>Produk 2</h3>
+      <p>Ini adalah beberapa teman saya di dunia nya</p>
+    </div>
+  </div>
+
+  <!-- Call-to-Action -->
+  <button class="cta">DOWNLOAD SEKARANG!</button>
+
+  <!-- Full-width Banner -->
+  <div class="banner">
+ <img src="assets/images/banner-promo.jpg" alt="banner-promo">
+    <div class="banner-text">
+      <h2>PROMO SPESIAL HARI INI!</h2>
+      <p>Diskon hingga 50% untuk semua produk, apabila barang mokad dijalan penjual tidak tanggung jawab.</p>
+    </div>
+  </div>
+</section>
